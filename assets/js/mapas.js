@@ -28,7 +28,7 @@ const mapa18 = document.getElementById("mapa18");
 const mapa19 = document.getElementById("mapa19");
 const mapa20 = document.getElementById("mapa20");
 const mapa21 = document.getElementById("mapa21");
- 
+const mapa22 = document.getElementById("mapa22");
 
 //mostrar mapa miraflores
 mapa1.addEventListener("click",()=>{    
@@ -94,7 +94,7 @@ mapa14.addEventListener("click",()=>{
 
 
 
-//mostrar mapa barranco
+//mostrar mapa surco
 
 mapa15.addEventListener("click",()=>{
     contenedorMapaSurco.innerHTML=`<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.393659531221!2d-76.97737994951959!3d-12.085180491399708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7ad784a96bd%3A0x8e0b3487046fc6f3!2sJuicy%20Lucy%20Jockey!5e0!3m2!1ses!2spe!4v1583362447251!5m2!1ses!2spe" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>`
@@ -103,6 +103,12 @@ mapa15.addEventListener("click",()=>{
 mapa16.addEventListener("click",()=>{
     contenedorMapaSurco.innerHTML=`<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.424744217262!2d-76.97090014951962!3d-12.083048191401115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7ab38e317eb%3A0x84f82cc5c8668f9a!2sBon%20Beef%20Burger!5e0!3m2!1ses!2spe!4v1583362811439!5m2!1ses!2spe" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>`
 })
+
+mapa22.addEventListener("click",()=>{
+    contenedorMapaSurco.innerHTML=`<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.0043089279297!2d-76.99536588551014!3d-12.111857246411667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7eeaa48b915%3A0x930db77a4c9f16a9!2sLa%20Barra%20Chacarilla!5e0!3m2!1ses!2spe!4v1583421453804!5m2!1ses!2spe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>`
+})
+
+
 
 //mostrar mapa san borja
 

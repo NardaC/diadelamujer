@@ -21,9 +21,11 @@
   .section-title span {
     font-size: 22px;
     margin-bottom: 5px;
+    text-align: center;
   }
   .section-title h2 {
     font-size: 28px;
+    text-align: center;
   }
   .owl-theme .owl-controls .owl-nav [class*="owl-"] {
     font-size: 20px;
@@ -157,6 +159,10 @@
     max-width: 100%;
     margin-top: 40px;
   }
+  .story-content p{
+    text-align: justify;
+  }
+
   .story-content .story-quote .quote-info {
     padding-top: 13px;
     padding-bottom: 8px;
@@ -170,6 +176,10 @@
   .shape2, .shape1, .shape3, .line-bg {
     display: none;
   }
+  .offer-area p {
+    text-align: justify;
+  }
+
   .single-offer .offer-content {
     padding: 15px;
     margin-left: 0;

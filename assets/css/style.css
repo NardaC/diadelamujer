@@ -1172,7 +1172,10 @@ Offer Area CSS
 }
 .offer-area p {
   color: #f4f0e0;
+  text-align: center;
 }
+
+
 
 .single-offer .offer-content {
   background-color: #ffffff;
@@ -2714,7 +2717,7 @@ Contact Area CSS
 }
 
 #contactForm .has-error .with-errors {
-  color: red;
+  color: #b50b73;;
   margin-top: 8px;
 }
 
